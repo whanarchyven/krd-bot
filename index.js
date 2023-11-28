@@ -15,6 +15,5 @@ bot.on('message',async (msg)=>{
 
     if(text=='/start'){
         bot.sendMessage(chatId,`Код привязки бота: <b>${chatId}</b>`,{parse_mode:'HTML'})
-        bot.setChatPhoto(chatId,'images/some.jpg')
     }
 })
